@@ -1,6 +1,4 @@
-# Bootstrapper
-
-#### The simple and modular bootstrap solution, for all your bootstrapping needs
+# Bootstrapper - The simple and modular bootstrap solution, for all your bootstrapping needs
 
 # Features
 
