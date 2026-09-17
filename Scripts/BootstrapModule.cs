@@ -11,6 +11,7 @@ public class BootstrapModule : MonoBehaviour{
 
     public void FinishModule(){
         Debug.Log($"Finished Bootstrap Module: {moduleName}");
+        BootstrapManager.instance.UpdateModuleProgress(0);
         BootstrapManager.instance.OnStepDone();
     }
 }
