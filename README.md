@@ -52,7 +52,7 @@ The Bootstrap Manager also has some functions that are useful, for example `Upda
 
 # Adding Custom Modules
 
-#### Custom modules allow you to run custom logic during your bootstep
+#### Custom modules allow you to run custom logic during your bootstrap
 
 #### These can be useful for loading in settings and save files; Requesting version info; Setting up systems that are present for the entire runtime of your game; etc
 
@@ -119,18 +119,18 @@ public class BootstrapCacheMaterialsModule : BootstrapModule{
 }
 ```
 
-#### When you have a module that might run for a few seconds, you can use `BootstrapManager.instance.UpdateModuleProgress(prog/materialsToCache.Count)` which will update the progress bar
+When you have a module that might run for a few seconds, you can use `BootstrapManager.instance.UpdateModuleProgress(float 0-1)` which will update the progress bar
 
 > [!IMPORTANT]
 > If you don't have a slider assigned in the `BootstrapManager`, this won't do anything
 
 ### Module Names
 
-#### The `BootstrapModule` class also has a name variable built in called `moduleName`. This is used by the manager to display the current task, and it's also the name logged when calling `base.BeginModule()`
+The `BootstrapModule` class also has a name variable built in called `moduleName`. This is used by the manager to display the current task, and it's also the name logged when calling `base.BeginModule()`
 
 > [!IMPORTANT]
 > If you don't have a Text assigned in the `BootstrapManager`, this will only log it, and not display it
 
 # Final Words
 
-Ty for using my asset, hope it helps you out :3
+Ty for using my tool, hope it helps you out :3
