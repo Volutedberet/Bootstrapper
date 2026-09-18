@@ -14,6 +14,9 @@
 
 #### Once imported and set up, on the BootstrapEndLoadSceneModule component, set the ID of the scene you want to load once the bootstrap is over
 
+> [!IMPORTANT]
+> If you want to use the material force cacher, and the prefab force cacher, drag all your prefabs into their lists on the `BootstrapCacheMaterialsModule` and the `BootstrapCachePrefabsModule` component
+
 > [!NOTE]
 > You can also make a custom module to handle what happens when the bootstrap ends. Check the API on how you can do that
 
